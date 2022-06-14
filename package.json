@@ -1,0 +1,29 @@
+{
+  "name": "basic-node-boilerplate",
+  "version": "1.0.0",
+  "description": "basic node boilerplate.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel index.js -d dist",
+    "start": "npm run build && node dist/index.js",
+    "dev": "nodemon --exec babel-node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sandeep-Tech/basic-node-boilerplate.git"
+  },
+  "author": "sndp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sandeep-Tech/basic-node-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Sandeep-Tech/basic-node-boilerplate#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.5",
+    "@babel/node": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "nodemon": "^2.0.16"
+  }
+}

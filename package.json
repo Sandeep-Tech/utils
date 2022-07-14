@@ -1,7 +1,7 @@
 {
-  "name": "basic-node-boilerplate",
+  "name": "utils",
   "version": "1.0.0",
-  "description": "basic node boilerplate.",
+  "description": "utils for daily use",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sandeep-Tech/basic-node-boilerplate.git"
+    "url": "git+https://github.com/Sandeep-Tech/utils.git"
   },
   "author": "sndp",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sandeep-Tech/basic-node-boilerplate/issues"
+    "url": "https://github.com/Sandeep-Tech/utils/issues"
   },
-  "homepage": "https://github.com/Sandeep-Tech/basic-node-boilerplate#readme",
+  "homepage": "https://github.com/Sandeep-Tech/utils#readme",
   "devDependencies": {
     "@babel/cli": "^7.17.10",
     "@babel/core": "^7.18.5",
